@@ -1,23 +1,58 @@
-# fprime items
-logs/
-cmake-build-*
-build-artifacts/
-build-fprime-*
-*-template
-*.template.cpp
-*.template.hpp
+```
+# Build artifacts
+build/
+dist/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Zephyr workspace
-lib/zephyr-workspace/*
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+.Python
 
-# Misc
-/venv/
-/fprime-venv/
-/.idea/
-/.vscode/
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# OS
 .DS_Store
-*.gcov
+Thumbs.db
 
-# Ignore local CMake build
-cmake-3.27.9*
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+.Python
+```
