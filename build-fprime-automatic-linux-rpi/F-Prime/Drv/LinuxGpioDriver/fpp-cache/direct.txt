@@ -1,3 +1,0 @@
-/workspace/lib/fprime/Drv/Interfaces/Gpio.fpp
-/workspace/lib/fprime/Fw/Log/Log.fpp
-/workspace/lib/fprime/Os/Models/File.fpp

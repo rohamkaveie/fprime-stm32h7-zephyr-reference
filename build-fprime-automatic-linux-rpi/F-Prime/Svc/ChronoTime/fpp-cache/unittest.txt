@@ -1,5 +1,0 @@
-ChronoTimeGTestBase.cpp
-ChronoTimeGTestBase.hpp
-ChronoTimeTesterBase.cpp
-ChronoTimeTesterBase.hpp
-ChronoTimeTesterHelpers.cpp

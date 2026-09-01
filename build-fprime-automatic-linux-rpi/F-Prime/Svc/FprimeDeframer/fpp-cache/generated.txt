@@ -1,3 +1,0 @@
-FprimeDeframerComponentAc.cpp
-FprimeDeframerComponentAc.hpp
-FprimeDeframerComponentAi.xml

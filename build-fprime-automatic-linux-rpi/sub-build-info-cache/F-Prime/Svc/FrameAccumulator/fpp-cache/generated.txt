@@ -1,3 +1,0 @@
-FrameAccumulatorComponentAc.cpp
-FrameAccumulatorComponentAc.hpp
-FrameAccumulatorComponentAi.xml

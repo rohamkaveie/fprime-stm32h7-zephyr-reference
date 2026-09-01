@@ -1,3 +1,0 @@
-ComDataWithContextPortAc.cpp
-ComDataWithContextPortAc.hpp
-ComDataWithContextPortAi.xml

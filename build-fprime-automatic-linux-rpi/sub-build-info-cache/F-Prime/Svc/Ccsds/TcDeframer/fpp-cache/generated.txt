@@ -1,3 +1,0 @@
-TcDeframerComponentAc.cpp
-TcDeframerComponentAc.hpp
-TcDeframerComponentAi.xml

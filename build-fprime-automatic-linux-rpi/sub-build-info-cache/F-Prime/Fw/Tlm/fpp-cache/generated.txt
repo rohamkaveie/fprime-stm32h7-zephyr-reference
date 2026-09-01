@@ -1,9 +1,0 @@
-TlmGetPortAc.cpp
-TlmGetPortAc.hpp
-TlmGetPortAi.xml
-TlmPortAc.cpp
-TlmPortAc.hpp
-TlmPortAi.xml
-TlmValidEnumAc.cpp
-TlmValidEnumAc.hpp
-TlmValidEnumAi.xml

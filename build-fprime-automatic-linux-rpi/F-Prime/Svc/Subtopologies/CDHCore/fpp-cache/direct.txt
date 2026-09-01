@@ -1,8 +1,0 @@
-/workspace/build-fprime-automatic-linux-rpi/F-Prime/Fpp/ToCpp.fpp
-/workspace/lib/fprime/Svc/ActiveLogger/ActiveLogger.fpp
-/workspace/lib/fprime/Svc/AssertFatalAdapter/AssertFatalAdapter.fpp
-/workspace/lib/fprime/Svc/CmdDispatcher/CmdDispatcher.fpp
-/workspace/lib/fprime/Svc/Health/Health.fpp
-/workspace/lib/fprime/Svc/PassiveConsoleTextLogger/PassiveConsoleTextLogger.fpp
-/workspace/lib/fprime/Svc/Subtopologies/CDHCore/CDHCoreConfig/CDHCoreConfig.fpp
-/workspace/lib/fprime/Svc/Version/Version.fpp

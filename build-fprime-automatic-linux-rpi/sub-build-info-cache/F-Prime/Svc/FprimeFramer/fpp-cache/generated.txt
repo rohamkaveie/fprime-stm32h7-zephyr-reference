@@ -1,3 +1,0 @@
-FprimeFramerComponentAc.cpp
-FprimeFramerComponentAc.hpp
-FprimeFramerComponentAi.xml

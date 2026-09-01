@@ -1,3 +1,0 @@
-SpacePacketFramerComponentAc.cpp
-SpacePacketFramerComponentAc.hpp
-SpacePacketFramerComponentAi.xml

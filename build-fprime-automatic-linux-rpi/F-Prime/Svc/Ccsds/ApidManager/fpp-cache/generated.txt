@@ -1,3 +1,0 @@
-ApidManagerComponentAc.cpp
-ApidManagerComponentAc.hpp
-ApidManagerComponentAi.xml

@@ -10,7 +10,9 @@
           "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
           "CMAKE_BUILD_TYPE": "Release",
           "BOARD": "nucleo_h723zg",
-          "FPRIME_TARGET_PLATFORM": "Zephyr"
+          "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/lib/fprime-zephyr/cmake/toolchain/zephyr.cmake",
+          "FPRIME_TARGET_PLATFORM": "Zephyr",
+          "FPRIME_PLATFORM": "Zephyr"
       },
       "generator": "Ninja"
     },
@@ -31,7 +33,8 @@
       "cacheVariables": {
           "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
           "CMAKE_BUILD_TYPE": "Release",
-          "FPRIME_TARGET_PLATFORM": "Linux"
+          "FPRIME_TARGET_PLATFORM": "Linux",
+          "FPRIME_PLATFORM": "Linux"
       },
       "generator": "Unix Makefiles"
     },
@@ -53,7 +56,8 @@
           "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
           "CMAKE_BUILD_TYPE": "Debug",
           "BUILD_TESTING": "ON",
-          "FPRIME_TARGET_PLATFORM": "Linux"
+          "FPRIME_TARGET_PLATFORM": "Linux",
+          "FPRIME_PLATFORM": "Linux"
       },
       "generator": "Unix Makefiles"
     }

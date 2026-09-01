@@ -1,3 +1,0 @@
-FprimeRouterComponentAc.cpp
-FprimeRouterComponentAc.hpp
-FprimeRouterComponentAi.xml

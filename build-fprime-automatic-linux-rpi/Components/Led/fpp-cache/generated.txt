@@ -1,3 +1,0 @@
-LedComponentAc.cpp
-LedComponentAc.hpp
-LedComponentAi.xml

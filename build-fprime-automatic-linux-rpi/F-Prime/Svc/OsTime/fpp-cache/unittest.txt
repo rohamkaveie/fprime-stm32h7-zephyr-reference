@@ -1,5 +1,0 @@
-OsTimeGTestBase.cpp
-OsTimeGTestBase.hpp
-OsTimeTesterBase.cpp
-OsTimeTesterBase.hpp
-OsTimeTesterHelpers.cpp

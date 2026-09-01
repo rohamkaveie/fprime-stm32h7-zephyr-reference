@@ -1,5 +1,0 @@
-ZephyrGpioDriverGTestBase.cpp
-ZephyrGpioDriverGTestBase.hpp
-ZephyrGpioDriverTesterBase.cpp
-ZephyrGpioDriverTesterBase.hpp
-ZephyrGpioDriverTesterHelpers.cpp

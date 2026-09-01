@@ -1,6 +1,0 @@
-TimeIntervalPortAc.cpp
-TimeIntervalPortAc.hpp
-TimeIntervalPortAi.xml
-TimePortAc.cpp
-TimePortAc.hpp
-TimePortAi.xml

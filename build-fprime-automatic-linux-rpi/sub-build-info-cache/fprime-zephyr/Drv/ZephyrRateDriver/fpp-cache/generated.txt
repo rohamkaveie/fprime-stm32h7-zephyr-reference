@@ -1,3 +1,0 @@
-ZephyrRateDriverComponentAc.cpp
-ZephyrRateDriverComponentAc.hpp
-ZephyrRateDriverComponentAi.xml

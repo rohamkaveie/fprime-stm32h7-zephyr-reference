@@ -1,3 +1,0 @@
-ZephyrSpiDriverComponentAc.cpp
-ZephyrSpiDriverComponentAc.hpp
-ZephyrSpiDriverComponentAi.xml

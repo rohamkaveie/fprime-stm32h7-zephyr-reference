@@ -1,5 +1,0 @@
-ZephyrI2CDriverGTestBase.cpp
-ZephyrI2CDriverGTestBase.hpp
-ZephyrI2CDriverTesterBase.cpp
-ZephyrI2CDriverTesterBase.hpp
-ZephyrI2CDriverTesterHelpers.cpp

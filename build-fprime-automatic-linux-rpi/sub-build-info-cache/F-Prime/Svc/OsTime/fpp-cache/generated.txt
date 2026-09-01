@@ -1,3 +1,0 @@
-OsTimeComponentAc.cpp
-OsTimeComponentAc.hpp
-OsTimeComponentAi.xml

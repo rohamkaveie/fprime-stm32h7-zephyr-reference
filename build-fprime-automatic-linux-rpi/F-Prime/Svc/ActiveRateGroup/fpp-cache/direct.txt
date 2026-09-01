@@ -1,6 +1,0 @@
-/workspace/build-fprime-automatic-linux-rpi/F-Prime/default/config/AcConstants.fpp
-/workspace/lib/fprime/Fw/Log/Log.fpp
-/workspace/lib/fprime/Fw/Tlm/Tlm.fpp
-/workspace/lib/fprime/Svc/Cycle/Cycle.fpp
-/workspace/lib/fprime/Svc/Ping/Ping.fpp
-/workspace/lib/fprime/Svc/Sched/Sched.fpp

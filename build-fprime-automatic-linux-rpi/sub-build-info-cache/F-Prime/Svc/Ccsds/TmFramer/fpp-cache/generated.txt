@@ -1,3 +1,0 @@
-TmFramerComponentAc.cpp
-TmFramerComponentAc.hpp
-TmFramerComponentAi.xml

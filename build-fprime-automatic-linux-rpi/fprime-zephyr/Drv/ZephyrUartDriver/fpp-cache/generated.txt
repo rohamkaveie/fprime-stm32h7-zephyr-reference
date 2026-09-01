@@ -1,3 +1,0 @@
-ZephyrUartDriverComponentAc.cpp
-ZephyrUartDriverComponentAc.hpp
-ZephyrUartDriverComponentAi.xml

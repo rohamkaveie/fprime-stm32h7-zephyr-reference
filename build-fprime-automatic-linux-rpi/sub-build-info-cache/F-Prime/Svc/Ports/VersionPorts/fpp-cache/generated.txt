@@ -1,6 +1,0 @@
-VersionPortAc.cpp
-VersionPortAc.hpp
-VersionPortAi.xml
-VersionStatusEnumAc.cpp
-VersionStatusEnumAc.hpp
-VersionStatusEnumAi.xml

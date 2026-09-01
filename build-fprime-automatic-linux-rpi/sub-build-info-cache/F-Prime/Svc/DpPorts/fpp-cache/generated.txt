@@ -1,3 +1,0 @@
-DpWrittenPortAc.cpp
-DpWrittenPortAc.hpp
-DpWrittenPortAi.xml

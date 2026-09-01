@@ -1,3 +1,0 @@
-/workspace/build-fprime-automatic-linux-rpi/F-Prime/default/config/FpConfig.fpp
-/workspace/build-fprime-automatic-linux-rpi/cmake/platform/unix/Platform/PlatformTypes.fpp
-/workspace/lib/fprime/Svc/Fatal/Fatal.fpp

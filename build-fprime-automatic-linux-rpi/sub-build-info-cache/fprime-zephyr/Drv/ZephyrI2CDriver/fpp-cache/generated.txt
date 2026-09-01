@@ -1,3 +1,0 @@
-ZephyrI2CDriverComponentAc.cpp
-ZephyrI2CDriverComponentAc.hpp
-ZephyrI2CDriverComponentAi.xml

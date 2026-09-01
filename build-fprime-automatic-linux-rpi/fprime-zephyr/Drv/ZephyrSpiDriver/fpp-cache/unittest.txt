@@ -1,5 +1,0 @@
-ZephyrSpiDriverGTestBase.cpp
-ZephyrSpiDriverGTestBase.hpp
-ZephyrSpiDriverTesterBase.cpp
-ZephyrSpiDriverTesterBase.hpp
-ZephyrSpiDriverTesterHelpers.cpp

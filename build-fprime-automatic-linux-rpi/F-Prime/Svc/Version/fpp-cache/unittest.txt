@@ -1,5 +1,0 @@
-VersionGTestBase.cpp
-VersionGTestBase.hpp
-VersionTesterBase.cpp
-VersionTesterBase.hpp
-VersionTesterHelpers.cpp

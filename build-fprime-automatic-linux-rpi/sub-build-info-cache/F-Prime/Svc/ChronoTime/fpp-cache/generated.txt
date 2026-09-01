@@ -1,3 +1,0 @@
-ChronoTimeComponentAc.cpp
-ChronoTimeComponentAc.hpp
-ChronoTimeComponentAi.xml

@@ -1,5 +1,0 @@
-FrameAccumulatorGTestBase.cpp
-FrameAccumulatorGTestBase.hpp
-FrameAccumulatorTesterBase.cpp
-FrameAccumulatorTesterBase.hpp
-FrameAccumulatorTesterHelpers.cpp

@@ -1,5 +1,0 @@
-LedGTestBase.cpp
-LedGTestBase.hpp
-LedTesterBase.cpp
-LedTesterBase.hpp
-LedTesterHelpers.cpp

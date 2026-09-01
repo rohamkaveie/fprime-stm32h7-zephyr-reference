@@ -1,5 +1,0 @@
-FprimeRouterGTestBase.cpp
-FprimeRouterGTestBase.hpp
-FprimeRouterTesterBase.cpp
-FprimeRouterTesterBase.hpp
-FprimeRouterTesterHelpers.cpp

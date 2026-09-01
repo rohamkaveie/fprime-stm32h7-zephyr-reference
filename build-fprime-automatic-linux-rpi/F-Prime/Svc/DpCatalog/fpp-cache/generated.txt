@@ -1,9 +1,0 @@
-DpCatalogComponentAc.cpp
-DpCatalogComponentAc.hpp
-DpCatalogComponentAi.xml
-DpHdrFieldEnumAc.cpp
-DpHdrFieldEnumAc.hpp
-DpHdrFieldEnumAi.xml
-DpRecordSerializableAc.cpp
-DpRecordSerializableAc.hpp
-DpRecordSerializableAi.xml

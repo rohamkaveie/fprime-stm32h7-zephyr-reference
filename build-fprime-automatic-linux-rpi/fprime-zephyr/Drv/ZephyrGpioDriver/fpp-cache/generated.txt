@@ -1,3 +1,0 @@
-ZephyrGpioDriverComponentAc.cpp
-ZephyrGpioDriverComponentAc.hpp
-ZephyrGpioDriverComponentAi.xml
