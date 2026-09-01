@@ -1,0 +1,2 @@
+/workspace/lib/fprime/Svc/FileUplink/Events.fppi
+/workspace/lib/fprime/Svc/FileUplink/Telemetry.fppi

@@ -1,0 +1,2 @@
+/workspace/lib/fprime/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp
+/workspace/lib/fprime/Svc/Interfaces/Com.fpp

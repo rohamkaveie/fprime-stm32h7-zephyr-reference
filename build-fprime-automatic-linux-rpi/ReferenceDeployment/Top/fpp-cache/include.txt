@@ -1,0 +1,4 @@
+/workspace/lib/fprime/Svc/BufferManager/Events.fppi
+/workspace/lib/fprime/Svc/BufferManager/Telemetry.fppi
+/workspace/lib/fprime/Svc/FileUplink/Events.fppi
+/workspace/lib/fprime/Svc/FileUplink/Telemetry.fppi

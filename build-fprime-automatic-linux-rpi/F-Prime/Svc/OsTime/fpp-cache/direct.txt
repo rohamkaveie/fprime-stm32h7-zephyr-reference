@@ -1,0 +1,4 @@
+/workspace/lib/fprime/Fw/Cmd/Cmd.fpp
+/workspace/lib/fprime/Fw/Log/Log.fpp
+/workspace/lib/fprime/Svc/Interfaces/Time.fpp
+/workspace/lib/fprime/Svc/Ports/OsTimeEpoch/OsTimeEpoch.fpp

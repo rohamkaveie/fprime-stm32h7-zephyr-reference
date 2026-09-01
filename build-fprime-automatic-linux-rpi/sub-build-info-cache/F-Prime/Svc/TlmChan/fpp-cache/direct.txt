@@ -1,0 +1,4 @@
+/workspace/lib/fprime/Fw/Com/Com.fpp
+/workspace/lib/fprime/Fw/Tlm/Tlm.fpp
+/workspace/lib/fprime/Svc/Ping/Ping.fpp
+/workspace/lib/fprime/Svc/Sched/Sched.fpp
