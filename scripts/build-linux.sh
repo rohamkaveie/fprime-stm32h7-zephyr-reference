@@ -8,6 +8,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 
 BUILD_TYPE="${1:-release}"
+BUILD_DIR="$PROJECT_ROOT/build-fprime-automatic-linux-rpi"
 
 echo "=========================================="
 echo "Building for Raspberry Pi Zero W 2 (Linux)"
@@ -17,19 +18,20 @@ echo "=========================================="
 cd "$PROJECT_ROOT"
 
 if [ "$BUILD_TYPE" = "debug" ]; then
-    echo "Configuring debug build..."
-    cmake --preset=fprime-linux-rpi-debug
-    echo "Building..."
-    cmake --build --preset=fprime-linux-rpi-debug
+    PRESET_NAME="fprime-linux-rpi-debug"
 else
-    echo "Configuring release build..."
-    cmake --preset=fprime-linux-rpi
-    echo "Building..."
-    cmake --build --preset=fprime-linux-rpi
+    PRESET_NAME="fprime-linux-rpi"
 fi
+
+echo "Configuring build with preset: $PRESET_NAME..."
+cmake --preset="$PRESET_NAME"
+
+echo "Building..."
+# Use explicit build directory for CMake < 3.28 compatibility
+cmake --build "$BUILD_DIR"
 
 echo ""
 echo "=========================================="
 echo "Build complete!"
-echo "Binary location: $PROJECT_ROOT/build-fprime-automatic-linux-rpi/bin/"
+echo "Binary location: $BUILD_DIR/bin/"
 echo "=========================================="

@@ -1,22 +1,17 @@
 {
-    "version": 4,
+    "version": 3,
     "configurePresets": [
     {
       "name": "fprime-zephyr",
       "displayName": "F´ Zephyr/STM32H723ZG Preset",
       "description": "F´ build for STM32H723ZG board running ZephyrRTOS",
       "binaryDir": "${sourceDir}/build-fprime-automatic-zephyr",
-      "environment": {
-        "VIRTUAL_ENV": "${fileDir}/fprime-venv",
-        "PATH": "$env{VIRTUAL_ENV}/bin:$penv{PATH}"
-      },
       "cacheVariables": {
           "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
           "CMAKE_BUILD_TYPE": "Release",
           "BOARD": "nucleo_h723zg",
           "FPRIME_TARGET_PLATFORM": "Zephyr"
       },
-      "toolchainFile": "${fileDir}/lib/fprime-zephyr/cmake/toolchain/zephyr.cmake",
       "generator": "Ninja"
     },
     {
