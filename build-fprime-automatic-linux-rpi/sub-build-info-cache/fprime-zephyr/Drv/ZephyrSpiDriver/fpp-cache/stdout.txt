@@ -1,0 +1,5 @@
+/workspace/build-fprime-automatic-linux-rpi/F-Prime/default/config/FpConfig.fpp
+/workspace/build-fprime-automatic-linux-rpi/cmake/platform/unix/Platform/PlatformTypes.fpp
+/workspace/lib/fprime/Drv/Interfaces/Spi.fpp
+/workspace/lib/fprime/Drv/Ports/SpiDriverPorts.fpp
+/workspace/lib/fprime/Fw/Buffer/Buffer.fpp

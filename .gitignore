@@ -1,73 +1,39 @@
 ```
-# Build directories and artifacts
-build-fprime-automatic-linux-rpi/
-build-fprime-automatic-zephyr/
+# Build artifacts
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.cmake
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
 
-# FPP cache files
-**/fpp-cache/
-**/fpp-import-list
-**/fpp-source-list
+# Dependencies
+vendor/
 
-# Generated CMake files
-fprime_module_info.cmake
-sub-build-info-cache/
-
-# Configuration and generated headers
-**/config/*.hpp
-**/config/*.h
-**/config/*.fpp
-
-# Implementation snippets
-**/implements-snippet-*.cmake
-
-# Hashes and location files
-hashes.txt
-locs.fpp
-
-# Platform-specific builds
-**/PlatformTypes.h
-**/PlatformTypes.fpp
-
-# Zephyr build files
-Kconfig/
-zephyr/snippets_generated.cmake
-
-# System files
-*.tmp
-.DS_Store
-Thumbs.db
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Environment variables
-.env*
+# Environment
+.env
+.env.local
+*.env.*
 
-# IDE files
+# Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# OS generated files
+.DS_Store
+Thumbs.db
 ```

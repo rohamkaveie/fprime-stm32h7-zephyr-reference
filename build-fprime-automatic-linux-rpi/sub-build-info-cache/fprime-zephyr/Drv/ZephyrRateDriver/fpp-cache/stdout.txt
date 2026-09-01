@@ -1,0 +1,5 @@
+/workspace/lib/fprime/Drv/Interfaces/Tick.fpp
+/workspace/lib/fprime/Drv/Ports/GpioDriverPorts.fpp
+/workspace/lib/fprime/Fw/Types/Types.fpp
+/workspace/lib/fprime/Os/Types.fpp
+/workspace/lib/fprime/Svc/Cycle/Cycle.fpp

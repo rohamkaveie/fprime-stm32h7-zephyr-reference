@@ -1,0 +1,3 @@
+/workspace/build-fprime-automatic-linux-rpi/F-Prime/default/config/AcConstants.fpp
+/workspace/lib/fprime/Fw/Cmd/Cmd.fpp
+/workspace/lib/fprime/Fw/Com/Com.fpp

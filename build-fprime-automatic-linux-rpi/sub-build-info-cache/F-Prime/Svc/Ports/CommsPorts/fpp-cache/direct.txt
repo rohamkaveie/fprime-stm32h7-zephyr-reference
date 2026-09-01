@@ -1,0 +1,2 @@
+/workspace/build-fprime-automatic-linux-rpi/F-Prime/default/config/ComCfg.fpp
+/workspace/lib/fprime/Fw/Buffer/Buffer.fpp

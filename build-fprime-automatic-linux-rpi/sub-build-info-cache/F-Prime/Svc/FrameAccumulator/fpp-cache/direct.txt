@@ -1,0 +1,3 @@
+/workspace/lib/fprime/Fw/Log/Log.fpp
+/workspace/lib/fprime/Fw/Time/Time.fpp
+/workspace/lib/fprime/Svc/Interfaces/FrameAccumulator.fpp

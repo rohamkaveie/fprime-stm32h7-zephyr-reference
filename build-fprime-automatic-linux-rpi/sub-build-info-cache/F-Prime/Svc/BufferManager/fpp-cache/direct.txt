@@ -1,0 +1,7 @@
+/workspace/lib/fprime/Fw/Buffer/Buffer.fpp
+/workspace/lib/fprime/Fw/Log/Log.fpp
+/workspace/lib/fprime/Fw/Time/Time.fpp
+/workspace/lib/fprime/Fw/Tlm/Tlm.fpp
+/workspace/lib/fprime/Svc/BufferManager/Events.fppi
+/workspace/lib/fprime/Svc/BufferManager/Telemetry.fppi
+/workspace/lib/fprime/Svc/Sched/Sched.fpp
