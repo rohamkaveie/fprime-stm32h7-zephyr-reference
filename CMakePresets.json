@@ -1,63 +1,61 @@
 {
-    "version": 4,
+    "version": 3,
     "configurePresets": [
     {
-      "name": "fprime",
-      "displayName": "F´ Release Preset",
-      "description": "F´ release build using local fprime-venv",
+      "name": "fprime-zephyr",
+      "displayName": "F´ Zephyr/STM32H723ZG Preset",
+      "description": "F´ build for STM32H723ZG board running ZephyrRTOS",
       "binaryDir": "${sourceDir}/build-fprime-automatic-zephyr",
-      "environment": {
-        "VIRTUAL_ENV": "${fileDir}/fprime-venv",
-        "PATH": "$env{VIRTUAL_ENV}/bin:$penv{PATH}"
-      },
       "cacheVariables": {
           "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
           "CMAKE_BUILD_TYPE": "Release",
-          "BOARD": "nucleo_h723zg"
+          "BOARD": "nucleo_h723zg",
+          "FPRIME_TARGET_PLATFORM": "Zephyr"
       },
-      "toolchainFile": "${fileDir}/lib/fprime-zephyr/cmake/toolchain/zephyr.cmake",
       "generator": "Ninja"
     },
     {
-      "name": "fprime-debug",
-      "inherits": "fprime",
-      "displayName": "F´ Debug Preset",
-      "description": "F´ debug build using local fprime-venv",
+      "name": "fprime-zephyr-debug",
+      "inherits": "fprime-zephyr",
+      "displayName": "F´ Zephyr Debug Preset",
+      "description": "F´ debug build for STM32H723ZG running ZephyrRTOS",
+      "cacheVariables": {
+          "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "fprime-linux-rpi",
+      "displayName": "F´ Linux/Raspberry Pi Zero W 2 Preset",
+      "description": "F´ build for Raspberry Pi Zero W 2 running Linux",
+      "binaryDir": "${sourceDir}/build-fprime-automatic-linux-rpi",
+      "cacheVariables": {
+          "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+          "CMAKE_BUILD_TYPE": "Release",
+          "FPRIME_TARGET_PLATFORM": "Linux"
+      },
+      "generator": "Unix Makefiles"
+    },
+    {
+      "name": "fprime-linux-rpi-debug",
+      "inherits": "fprime-linux-rpi",
+      "displayName": "F´ Linux/Raspberry Pi Debug Preset",
+      "description": "F´ debug build for Raspberry Pi Zero W 2 running Linux",
       "cacheVariables": {
           "CMAKE_BUILD_TYPE": "Debug"
       }
     },
     {
       "name": "fprime-ut",
-      "inherits": "fprime-debug",
       "displayName": "F´ Unit Test Preset",
-      "description": "F´ debug build including unit tests using local fprime-venv",
+      "description": "F´ debug build including unit tests (native)",
       "binaryDir": "${sourceDir}/build-fprime-automatic-native-ut",
       "cacheVariables": {
-          "BUILD_TESTING": "ON"
-      }
-    },
-      {
-        "name": "fprime-ninja",
-        "inherits": "fprime",
-        "displayName": "F´ Release (Ninja) Preset",
-        "description": "F´ release build using ninja and local fprime-venv",
-        "generator": "Ninja"
+          "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+          "CMAKE_BUILD_TYPE": "Debug",
+          "BUILD_TESTING": "ON",
+          "FPRIME_TARGET_PLATFORM": "Linux"
       },
-      {
-        "name": "fprime-debug-ninja",
-        "inherits": "fprime-debug",
-        "displayName": "F´ Debug (Ninja) Preset",
-        "description": "F´ debug build using ninja and local fprime-venv",
-        "generator": "Ninja"
-      },
-      {
-        "name": "fprime-ut-ninja",
-        "inherits": "fprime-ut",
-        "displayName": "F´ Unit Test (Ninja) Preset",
-        "description": "F´ debug build including unit tests using ninja and local fprime-venv",
-        "binaryDir": "${sourceDir}/build-fprime-automatic-native-ut",
-        "generator": "Ninja"
-      }
+      "generator": "Unix Makefiles"
+    }
     ]
 }
