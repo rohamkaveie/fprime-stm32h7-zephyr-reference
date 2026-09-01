@@ -1,0 +1,3 @@
+/workspace/lib/fprime/Svc/BufferAccumulator/Commands.fppi
+/workspace/lib/fprime/Svc/BufferAccumulator/Events.fppi
+/workspace/lib/fprime/Svc/BufferAccumulator/Telemetry.fppi

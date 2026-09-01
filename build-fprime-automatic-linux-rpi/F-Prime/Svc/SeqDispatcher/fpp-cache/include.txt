@@ -1,0 +1,3 @@
+/workspace/lib/fprime/Svc/SeqDispatcher/SeqDispatcherCommands.fppi
+/workspace/lib/fprime/Svc/SeqDispatcher/SeqDispatcherEvents.fppi
+/workspace/lib/fprime/Svc/SeqDispatcher/SeqDispatcherTelemetry.fppi

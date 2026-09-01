@@ -1,0 +1,5 @@
+/workspace/lib/fprime/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp
+/workspace/lib/fprime/Drv/Ports/GpioDriverPorts.fpp
+/workspace/lib/fprime/Drv/Ports/I2cDriverPorts.fpp
+/workspace/lib/fprime/Drv/Ports/SpiDriverPorts.fpp
+/workspace/lib/fprime/Svc/Cycle/Cycle.fpp

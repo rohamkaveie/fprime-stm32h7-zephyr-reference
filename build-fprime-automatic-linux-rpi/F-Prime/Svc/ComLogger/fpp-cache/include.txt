@@ -1,0 +1,2 @@
+/workspace/lib/fprime/Svc/ComLogger/Commands.fppi
+/workspace/lib/fprime/Svc/ComLogger/Events.fppi

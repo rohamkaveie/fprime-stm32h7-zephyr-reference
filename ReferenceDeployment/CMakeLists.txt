@@ -29,30 +29,14 @@ if(FPRIME_TARGET_PLATFORM STREQUAL "Zephyr")
         DEPENDS
             ${FPRIME_CURRENT_MODULE}_Top
     )
-elseif(FPRIME_TARGET_PLATFORM STREQUAL "Linux")
-    # Linux/Raspberry Pi Zero W 2 deployment
+else()
+    # Linux/Raspberry Pi Zero W 2 deployment (default)
+    # Also used as fallback for any non-Zephyr platform
     register_fprime_deployment(
+        ${FPRIME_CURRENT_MODULE}
         SOURCES
             "${CMAKE_CURRENT_LIST_DIR}/Main.cpp"
         DEPENDS
             ${FPRIME_CURRENT_MODULE}_Top
     )
-else()
-    # Fallback to platform detection via FPRIME_PLATFORM
-    if (FPRIME_PLATFORM STREQUAL "Zephyr")
-        register_fprime_zephyr_deployment(
-            ${FPRIME_CURRENT_MODULE}
-            SOURCES
-                "${CMAKE_CURRENT_LIST_DIR}/Main.cpp"
-            DEPENDS
-                ${FPRIME_CURRENT_MODULE}_Top
-        )
-    else()
-        register_fprime_deployment(
-            SOURCES
-                "${CMAKE_CURRENT_LIST_DIR}/Main.cpp"
-            DEPENDS
-                ${FPRIME_CURRENT_MODULE}_Top
-        )
-    endif()
 endif()

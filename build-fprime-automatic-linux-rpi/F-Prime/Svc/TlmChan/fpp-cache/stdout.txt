@@ -1,0 +1,7 @@
+/workspace/build-fprime-automatic-linux-rpi/F-Prime/default/config/FpConfig.fpp
+/workspace/build-fprime-automatic-linux-rpi/cmake/platform/unix/Platform/PlatformTypes.fpp
+/workspace/lib/fprime/Fw/Com/Com.fpp
+/workspace/lib/fprime/Fw/Time/Time.fpp
+/workspace/lib/fprime/Fw/Tlm/Tlm.fpp
+/workspace/lib/fprime/Svc/Ping/Ping.fpp
+/workspace/lib/fprime/Svc/Sched/Sched.fpp

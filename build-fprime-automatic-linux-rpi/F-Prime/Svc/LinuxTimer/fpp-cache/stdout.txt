@@ -1,0 +1,3 @@
+/workspace/lib/fprime/Drv/Interfaces/Tick.fpp
+/workspace/lib/fprime/Os/Types.fpp
+/workspace/lib/fprime/Svc/Cycle/Cycle.fpp
