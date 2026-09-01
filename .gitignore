@@ -2,6 +2,8 @@
 # Build directories and artifacts
 build-fprime-automatic-linux-rpi/
 build-fprime-automatic-zephyr/
+build-artifacts/
+/fprime-venv/
 
 # FPP cache files
 **/fpp-cache/

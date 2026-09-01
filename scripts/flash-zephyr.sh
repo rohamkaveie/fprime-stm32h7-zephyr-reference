@@ -21,8 +21,11 @@ fi
 
 cd "$PROJECT_ROOT"
 
+ZEPHYR_WORKSPACE="./lib/zephyr-workspace"
+export ZEPHYR_BASE="$ZEPHYR_WORKSPACE/zephyr"
+
 echo "Flashing using west..."
-west flash -b nucleo_h723zg --build-dir "$BUILD_DIR"
+west flash --build-dir "$BUILD_DIR"
 
 echo ""
 echo "=========================================="
