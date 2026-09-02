@@ -13,10 +13,7 @@ if(FPRIME_TARGET_PLATFORM STREQUAL "Zephyr")
         "${CMAKE_CURRENT_LIST_DIR}/FpConfig.h"
     )
 elseif(FPRIME_TARGET_PLATFORM STREQUAL "Linux")
-    list(APPEND PLATFORM_CONFIG_OVERRIDES
-        "${CMAKE_CURRENT_LIST_DIR}/FpConfig.h"
-        "${CMAKE_CURRENT_LIST_DIR}/FpConfig2.h"
-    )
+    # Linux uses default FpConfig.h, no override needed
 endif()
 
 register_fprime_config(

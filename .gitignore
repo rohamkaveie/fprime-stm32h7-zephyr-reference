@@ -1,8 +1,44 @@
 ```
-# CMake build directories
-build-fprime-automatic-linux-rpi/
+# Build artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.out
 
-# CMake cache and temporary files
-CMakeCache.txt
+# CMake build directories
+build/
+cmake-build-*/
 CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Dependencies
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
