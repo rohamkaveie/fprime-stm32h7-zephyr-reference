@@ -6,12 +6,11 @@
 #ifndef REFERENCEDEPLOYMENT_REFERENCEDEPLOYMENTTOPOLOGYDEFS_HPP
 #define REFERENCEDEPLOYMENT_REFERENCEDEPLOYMENTTOPOLOGYDEFS_HPP
 
-// #include "Drv/BlockDriver/BlockDriver.hpp"
 #include "Fw/Types/MallocAllocator.hpp"
 #include "ReferenceDeployment/Top/FppConstantsAc.hpp"
 #include "Svc/FramingProtocol/FprimeProtocol.hpp"
 #include "Svc/Health/Health.hpp"
-#include <zephyr/drivers/uart.h>
+#include <Os/File.hpp>
 
 // Definitions are placed within a namespace named after the deployment
 namespace ReferenceDeployment {
@@ -24,8 +23,10 @@ namespace ReferenceDeployment {
  * to the definition of the project. Here, they are derived from command line inputs.
  */
 struct TopologyState {
-    const device* uartDevice;
-    U32 baudRate;
+    const char* uartDevice;  // Path to UART device (e.g., "/dev/ttyUSB0") or nullptr for TCP
+    const char* hostname;    // Hostname/IP address for TCP connection
+    U16 port;                // Port number for TCP connection
+    U32 baudRate;            // Baud rate for UART communication
 };
 
 /**

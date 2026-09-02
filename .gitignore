@@ -1,17 +1,10 @@
 ```
-# Compiled and build artifacts
+# Build artifacts
 *.o
 *.obj
-*.a
-*.lib
-*.so
-*.dll
-*.exe
 *.out
-*.fpp
-*.fdb
-*.log
-*.tmp
+build/
+dist/
 
 # Dependencies
 node_modules/
@@ -19,52 +12,28 @@ venv/
 .venv/
 __pycache__/
 *.egg-info/
-build/
-dist/
-target/
-.gradle/
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
+*.tmp
+
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# OS
-.DS_Store
-Thumbs.db
-
 # Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Compression
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
