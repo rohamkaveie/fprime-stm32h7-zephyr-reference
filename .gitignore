@@ -1,39 +1,8 @@
 ```
-# Build artifacts
-*.o
-*.obj
-*.out
-build/
-dist/
+# CMake build directories
+build-fprime-automatic-linux-rpi/
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# CMake cache and temporary files
+CMakeCache.txt
+CMakeFiles/
 ```
