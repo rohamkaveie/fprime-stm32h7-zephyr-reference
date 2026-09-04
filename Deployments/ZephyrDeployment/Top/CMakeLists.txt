@@ -7,7 +7,7 @@
 # MOD_DEPS: (optional) module dependencies
 ####
 
-register_fprime_module(
+register_fprime_module(ZephyrDeployment_Top
     AUTOCODER_INPUTS
         "${CMAKE_CURRENT_LIST_DIR}/instances.fpp"
         "${CMAKE_CURRENT_LIST_DIR}/instances-zephyr.fpp"
