@@ -1,8 +1,30 @@
 ```
-# CMake build directories
+# Build directories
 build-fprime-automatic-linux-rpi/
 
-# CMake cache and temporary files
-CMakeCache.txt
-CMakeFiles/
+# CMake build artifacts
+*.cmake
+
+# F Prime specific build outputs
+F-Prime/
+Deployments/*/bin/
+Deployments/*/lib/
+*.fpp
+
+# General build artifacts
+build/
+dist/
+target/
+
+# Temporary files
+*.tmp
+*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
 ```

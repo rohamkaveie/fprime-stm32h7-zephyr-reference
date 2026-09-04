@@ -19,9 +19,9 @@ add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/Top/")
 
 # Zephyr/STM32H723ZG deployment
 register_fprime_zephyr_deployment(
-    ${FPRIME_CURRENT_MODULE}
+    ZephyrDeployment
     SOURCES
         "${CMAKE_CURRENT_LIST_DIR}/Main.cpp"
     DEPENDS
-        ${FPRIME_CURRENT_MODULE}_Top
+        ZephyrDeployment_Top
 )

@@ -19,9 +19,9 @@ add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/Top/")
 
 # Linux/Raspberry Pi Zero W 2 deployment
 register_fprime_deployment(
-    ${FPRIME_CURRENT_MODULE}
+    LinuxDeployment
     SOURCES
         "${CMAKE_CURRENT_LIST_DIR}/Main.cpp"
     DEPENDS
-        ${FPRIME_CURRENT_MODULE}_Top
+        LinuxDeployment_Top
 )

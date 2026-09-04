@@ -11,4 +11,3 @@ elseif(FPRIME_TARGET_PLATFORM STREQUAL "Linux")
 endif()
 
 # add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/MyComponent")
-add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/Common/Led/")
