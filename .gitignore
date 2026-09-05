@@ -1,53 +1,51 @@
 ```
-# Build directories and artifacts
-build-fprime-automatic-linux-rpi/
-build-fprime-automatic-zephyr/
-build-artifacts/
-/fprime-venv/
+# Build directories
+build/
+build-*/
 
-# FPP cache files
-**/fpp-cache/
-**/fpp-import-list
-**/fpp-source-list
-
-# Generated CMake files
-fprime_module_info.cmake
+# F Prime specific build artifacts
 sub-build-info-cache/
+*.cmake
 
-# Configuration and generated headers
-**/config/*.hpp
-**/config/*.h
-**/config/*.fpp
+# Zephyr workspace modules (added as subdirectories)
+lib/zephyr-workspace/modules/**
 
-# Implementation snippets
-**/implements-snippet-*.cmake
+# Configuration files
+*.config
 
-# Hashes and location files
-hashes.txt
-locs.fpp
-
-# Platform-specific builds
-**/PlatformTypes.h
-**/PlatformTypes.fpp
-
-# Zephyr build files
-Kconfig/
-zephyr/snippets_generated.cmake
-
-# System files
+# Temporary and log files
 *.tmp
+*.log
+*.swp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS specific files
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
 
-# Environment variables
-.env*
-
-# IDE files
-.vscode/
-.idea/
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
 # Compressed files
 *.zip
