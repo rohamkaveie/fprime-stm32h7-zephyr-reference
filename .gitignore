@@ -23,7 +23,12 @@ lib/zephyr-workspace/modules/**
 .env.local
 *.env.*
 
-# IDE files
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
 .vscode/
 .idea/
 
